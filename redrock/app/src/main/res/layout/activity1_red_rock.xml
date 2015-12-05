@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImageView0"
+        android:background="@drawable/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/TextView0"
+        android:text="注册"
+        android:textSize="32sp"
+        android:textColor="#008000"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="200dp"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/EditText0"/>
+    <EditText
+        android:hint="用户名"
+        android:textSize="20sp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="密码"
+        android:textSize="20sp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/UserPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Registered2"
+        android:background="#FFFFFF"
+        android:textColor="#008000"
+        android:textSize="18sp"
+        android:text="注册"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="385dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:onClick="doRegistered"/>
+    <Button
+        android:id="@+id/ReturnLogin"
+        android:textSize="18sp"
+        android:textColor="#008000"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="230dp"
+        android:layout_alignBaseline="@+id/Registered2"
+        android:text="返回登陆"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

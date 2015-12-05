@@ -1,4 +1,4 @@
-package com.example.redrock;
+﻿package com.example.redrock;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -24,6 +24,8 @@ public class LoginSuccess extends Activity{
                 //在当前onclick方法中监听点击Button(Registered)的动作
                 Intent intent = new Intent(LoginSuccess.this, RedRockActivity.class);
                 startActivity(intent); //从当前Activity 跳转到 指定Activity
+		//测试git
+                //还是测试
             }
         });
     }
